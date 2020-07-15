@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.xanh {
+    width: 180px;
+    height: 180px;
+    background: url(../images/1.jpg);
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    transition: 0.4s;
+    backface-visibility: hidden;
+}
+
+.den {
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    background: black;
+    border-radius: 50%;
+    top: 20px;
+    left: 20px;
+    color: white;
+    text-align: center;
+    padding: 50px 10px;
+    transition: 0.4s;
+    transform: rotateY(-180deg);
+}
+
+.trang {
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    background: white;
+    border-radius: 50%;
+    top: 20px;
+    left: 20px;
+}
+
+.motkhoi {
+    width: 220px;
+    height: 220px;
+    background: url(../images/1.jpg);
+    border-radius: 50%;
+    box-shadow: inset 0 0 0px 20px #ffffff47;
+    margin: auto;
+    position: relative;
+}
+
+.motkhoi:hover .xanh{
+    transform: rotateY(180deg);
+}
+.motkhoi:hover .den{
+    transform: rotateY(0deg);
+}
