@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* .collapse:not(.show){
+    display: none;
+} */
+.list-unstyle{
+    list-style: none;
+    padding-left: 0;
+}
+/* p.time{
+    text-align: right;
+} */
+a.icon {
+    font-size: 20px;
+    border: 2px solid rgb(117, 117, 117);
+    border-radius: 5px;
+    padding: 5px 13px;
+}
+a.unstyle{
+    text-decoration: none;
+    color: black;
+}

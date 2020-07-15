@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.size_textp{
+    font-size: 1.25rem;
+}
+ img.center{
+    margin-left: auto;
+    margin-right: auto;
+ }
+ .canhgiua{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ a.deco{
+     text-decoration: none;
+ }
+ @media only screen and (max-width: 768px) {
+     
+ }
