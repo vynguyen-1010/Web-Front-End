@@ -1,0 +1,101 @@
+.layer{
+    position: relative;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 400px;
+    height: 250px;
+    margin: auto;
+    perspective: 500px;
+}
+.layer .layer1{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left:0px;
+}
+
+.layer .layer1 img{
+    width: 100%;
+    height: 100%;
+
+}
+.layer:hover .layer1{
+    transition: 0.8s;
+    transform: scale(1.2);
+}
+.layer .layer2{
+    width: 90%;
+    height: 210px;
+    position: absolute;
+    background-color: white;
+    opacity: 0;
+    top: 20px;
+    left: 20px;
+    transition: 0.8s;
+    transform-origin: 0 0;
+}
+
+.layer:hover .layer2{
+    opacity: 0.7;
+    transform: rotateY(10deg);
+}
+.layer .layer3{
+    position: absolute;
+    top: 17.5px;
+    left:25px;
+    color: white;
+}
+
+.layer .layer3 .icon{
+    background-color: black;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.layer .layer3 .icon i{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    font-size: 14px;
+    padding: 8px;
+}
+
+.layer .layer4{
+    color: rgb(124, 117, 117);
+    position: absolute;
+    bottom: 17.5px;
+    left: 25px;
+    /* transform: scale(0); */
+    transition: 0.5s;
+    opacity: 0;
+}
+
+.layer:hover .layer4{
+    /* transform: scale(1); */
+    bottom: 37.5px;
+    opacity: 1;
+    transition-delay: 0.3s;
+}
+.layer .layer5{
+    color: rgb(124, 117, 117);
+    position: absolute;
+    bottom: 17.5px;
+    left: 25px;
+    /* transform: scale(0); */
+    opacity: 0;
+    transition: 0.5s;
+    font-size: 10px;
+}
+
+.layer:hover .layer5{
+    /* transform: scale(1); */
+    transition-delay: 0.5s;
+    opacity: 1;
+}
+
+.layer5:hover{
+    border-bottom: 1px solid black;
+    transition-delay: 0.7s;
+
+}

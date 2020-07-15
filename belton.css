@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --font-tieude: 'Oswald', sans-serif;
+}
+
+.banner_top{
+    height: 600px;
+    background: url(http://belton.tommusdemos.wpengine.com/wp-content/uploads/sites/82/2018/04/fullscreen03.jpg) top center;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
+
+.banner_top::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.329);
+    top: 0;
+    left: 0;
+}
+
+.banner_top ._3cot{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    display: flex;
+    padding: 30px;
+    height: 30px;
+}
+.banner_top ._3cot .left{
+    width: 33.33%;
+}
+
+.banner_top ._3cot .left > a{
+    color: white;
+    font-size: 25px;
+}
+
+.banner_top ._3cot .left:hover a{
+    color: blue;
+}
+.banner_top ._3cot .center{
+    width: 33.33%;
+    text-align: center;
+}
+
+.banner_top ._3cot .center img{
+    height: 30px;
+}
+
+.banner_top ._3cot .right{
+    width: 33.33%;
+    text-align: right;
+}
+.banner_top ._3cot .right a{
+    color: white;
+    padding: 15px 10px;
+    opacity: 0.9;
+}
+/* end css top */
+
+.textbanner{
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    /* background-color: white; */
+}
+.textbanner .content{
+    width: 1170px;
+    height: fit-content;
+    color: white;
+    margin: auto;
+}
+.textbanner .content .small{
+    font-size: 20px;
+    width: 30%;
+    font-family: inherit;
+    padding-bottom: 20px;
+}
+.textbanner .content h1{
+    width: 50%;
+    font-family: var(--font-tieude);
+    /* font-weight: bold; */
+    font-size: 48px;
+    line-height: 60px;
+}
+.content1{
+    display: flex;
+    justify-content: space-between;
+    width: 1170px;
+    height: fit-content;
+    margin: auto;
+    /* background-color: rgb(216, 140, 140); */
+    padding: 100px 0px;
+}
+.content1 .left{
+    width: 25%;
+}
+.content1 .left > span{
+    font-size: 20px;
+    font-family: inherit;
+    display: inline-block;
+    padding-bottom: 20px;
+    color:rgb(104, 104, 104);
+}
+.content1 .left > h2{
+    font-family: var(--font-tieude);
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 40px;
+}
+.content1 .right{
+    width: 70%;
+}
+.content1 .right > p{
+    font-size: 20px;
+    color:rgb(104, 104, 104);
+    font-family: inherit;
+}
+.content1 .right .buy{}
+
+
+.content1 .right .buy > a{
+    text-decoration: none;
+    color:rgb(104, 104, 104);
+
+}
+
+.content1 .right .buy > a > .icon{
+    font-size: 20px;
+    margin-right: 15px;
+    transition: 0.4s;
+    display: inline-block;
+    position: relative;
+    top: 3px;
+    left: 0px;
+}
+
+.content1 .right .buy > a:hover > .icon{
+    left: 10px;
+}
+.content1 .right .buy > a:hover{
+    color:rgb(66, 66, 66);
+}
+/* end content 1 */
+
+.content2{
+    background-color: black;
+    /* width: 1170px; */
+    height: 100%;
+}
+.content2 .menu{
+    /* background-color: rgb(206, 206, 178); */
+    padding: 50px 0px;
+}
+.content2 .menu ul{
+    display: flex;
+    justify-content: center;
+}
+.content2 .menu ul > li{
+    list-style: none;
+    padding-left: 50px;
+}
+.content2 .menu ul > li > a{
+    text-decoration: none;
+    color:rgb(104, 104, 104);
+    transition: 0.5s;
+}
+
+.content2 .menu ul > li:hover > a{
+    color:rgb(255, 255, 255);
+}
+
+.content2 .anh{
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto;
+    padding-bottom: 100px;
+}
+.content2 .anh .con{
+    width: 49%;
+    height: 382.313px;
+    margin-bottom: 23.4px;
+    position: relative;
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+.content2 .anh .con > a{
+    text-decoration: none;
+    color: white;
+
+}
+.content2 .anh .con > a > .image{
+    width: 100%;
+    transition: 0.7s;
+}
+.content2 .anh .con:hover > a > .image{
+    opacity: 0.6;
+    transform: scale(1.1);
+}
+.content2 .anh .con  > a > .image img{
+    width: 100%;
+    height: 100%;
+}
+.content2 .anh .con > a > .smalltext{
+    font-size: 20px;
+    position: absolute;
+    top: 50px;
+    right: 30px;
+    overflow: hidden;
+    opacity: 0;
+    transition: 0.5s;
+}
+.content2 .anh .con:hover > a > .smalltext{
+    opacity: 1;
+    transition-delay: 0.1s;
+}
+.content2 .anh .con > a > .smalltext:after{
+    width: 100%;
+    height: 100%;
+    content: '';
+    background-color: white;
+    position: absolute;
+    top: 0;
+    right: -100%;
+    transition: 0.5s;
+}
+.content2 .anh .con:hover > a > .smalltext:after{
+    right: 100%;
+    transition: 0.5s;
+}
+
+.content2 .anh .con > a > .bigtext{
+    font-size: 25px;
+    font-family: var(--font-tieude);
+    position: absolute;
+    top: 90px;
+    right: 30px;
+    overflow: hidden;
+    opacity: 0;
+    transition: 0.5s;
+}
+.content2 .anh .con:hover > a > .bigtext{
+    opacity: 1;
+    transition-delay: 0.1s;
+}
+.content2 .anh .con > a > .bigtext:after{
+    width: 100%;
+    height: 100%;
+    content: '';
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: -100%;
+    transition: 0.7s;
+}
+.content2 .anh .con:hover > a > .bigtext:after{
+    left: 100%;
+    transition: 0.5s;
+}

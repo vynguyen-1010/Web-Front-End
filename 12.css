@@ -1,0 +1,38 @@
+.to{
+    display: flex;
+    width: 900px;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.to .so1{
+    width: 15%;
+}
+
+.to .so2{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+}
+
+.to .so2 .so2-1{
+    color: red;
+    width: 30%;
+}
+
+.to .so2 .so2-2{
+    color: gray;
+    width: 30%;
+}
+
+.to .so2 .so2-3{
+    color: green;
+    width: 30%;
+}
+
+.to .so3{
+    width: 30%;
+}
+img{
+    width: 100%;
+}

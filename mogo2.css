@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.block{
+    width: 700px;
+    height: 262px;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+}
+.block .image{
+    width: 720px;
+    height: auto;
+    position: absolute;
+    top: 0px;
+    left: -20px;
+    transition: 0.4s;
+}
+
+.block:hover .image{
+    left: 0px;
+}
+
+.block img.image{}
+
+.block .so1{
+    position: absolute;
+    top: 40px;
+    left: 60px;
+    overflow: hidden;
+}
+
+.block .so1 .line{
+    width: 50px;
+    height: 3px;
+    background-color: white;
+    position: relative;
+    left: -50px;
+    transition: 0.4s;
+}
+
+.block:hover .so1 .line{
+    left: 0px;
+}
+.block .so2{
+    font-family: segoe ui light;
+    font-size: 25px;
+    position: absolute;
+    top: 50px;
+    left: 60px;
+    color: white;
+}
+.block .so2 .bigtext{}
+.block .so3{
+    width: 70%;
+    height: auto;
+    font-family: segoe ui light;
+    font-size: 13px;
+    color: white;
+    position: absolute;
+    top: 90px;
+    left: 60px;
+    overflow: hidden;
+}
+.block .so3 .smalltext{
+    position: relative;
+    left: 490px;
+    transition: 0.2s;
+}
+
+.block:hover .so3 .smalltext{
+    left: 0px;
+    display: block;
+}

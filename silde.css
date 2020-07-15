@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    padding: 10px;
+    display: flex;
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: gray; */
+    /* justify-content: space-between; */
+}
+
+.container .menu{
+    width: 19%;
+    border: 0px solid white;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid rgb(209, 208, 208);
+    border-radius: 4px;
+    background-color: white;
+}
+
+.menu .block{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 7px;
+}
+
+.block .icon{
+    width: 9%;
+    color: rgb(177, 174, 174);
+    text-align: center;
+    font-size: 15px;
+}
+
+.block .name{
+    width: 85%;
+    color: black;
+    font-size: 13px;
+    font-family: segoe ui light;
+}
+
+.container .slide{
+    width: 50%;
+}
+
+.slide .myslide{
+    width: 100%;
+    background-color: gray;
+}
+
+.myslide img{
+    width: 100%;
+}
+
+.block2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1px;
+}
+.block2 img{
+    width: 50%;
+    /* border-radius: 4px; */
+}
+
+.slide .myslide .carousel-indicators{
+    display: none;
+}
+
+.container .ads{
+    width: 31%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.ads img{
+    width: 50%;
+    /* border-radius: 4px; */
+}
+
+
+

@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.block{
+    width: 263px;
+    height: 451px;
+    margin: auto;
+    margin-top: 100px;
+    position: relative;
+    overflow: hidden;
+}
+
+.block .gra{
+    position: absolute;
+    top: -250px;
+    left: -500px;
+    width: 1000px;
+    height: 150px;
+    background-image: -webkit-linear-gradient(#00000000,white,#0000000d);
+    transform: rotate(-45deg);
+    transition: 1s;
+    opacity: 0;
+}
+
+.block:hover .gra{
+    top: 470px;
+    left: 270px;
+    opacity: 1;
+}
+
+.block .img{}
+.block img.img{}
