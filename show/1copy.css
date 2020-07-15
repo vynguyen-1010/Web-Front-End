@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container.none{
+    display: none;
+}
+
+.container1{
+    display: none;
+    width: 100%;
+    height: 900px;
+}
+.container1.b{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container1.b .k{
+    width: 40%;
+    height: 100%;
+    background-image: url(image/1.jpg);
+    background-size: cover;
+}
+
+.noidung{
+    font-family: 'Josefin Slab', serif;
+}
+.noidung .big-content{
+    width: 70%;
+    margin: 0px 10px;
+    background-color: wheat;
+    border-radius: 5px;
+}
+.noidung .big-content .title{
+    background-color: thistle;
+    border-radius: 5px;
+    padding: 0px 20px;
+}
+.noidung .big-content .title .icon{    
+    margin: 7px 0px;
+    opacity: 0;
+    transition: 0.4s;
+}
+.noidung .big-content .title:hover .icon{
+    opacity: 1;
+}
+.fa-angle-up.a{
+    display: none;
+}
+.noidung .big-content .title .none{
+    transform: rotate(180deg);
+}
+.noidung .big-content .title .icon-up{    
+    margin: 7px 0px;
+    display: inline;
+    opacity: 0;
+    transition: 0.4s;
+}
+.noidung .big-content .title:hover .icon-up{
+    opacity: 1;
+}
+
+.noidung .big-content .content{
+    margin: 0px 20px;
+    padding: 0px 0px 20px 0px;
+}
+.noidung .big-content .content .img{
+    display: flex;
+    justify-content: space-between;
+}
+.noidung .big-content .content .img img{
+    width: 20%;
+    transition: 0.4s;
+}
+.noidung .big-content .content .img img.zoom{
+    transform: scale(4);
+}
+.noidung .big-content h2 strong:hover{
+    color: violet;
+    transition: 0.4s;
+}
+.noidung .big-content h2 strong.abc{
+    color: white;
+    transition: 0.4s;
+}
+.noidung .big-content h2 strong{
+    transition: 0.4s;
+}
