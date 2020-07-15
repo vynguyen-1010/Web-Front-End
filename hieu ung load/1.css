@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.to{
+    width: 100%;
+    height: fit-content;
+    background-color: lightblue;
+}
+.khoi > a {
+    color: black;
+}
+
+.khoi > a:hover {
+    text-decoration: none;
+    color: gray;
+}
+
+.giaodien .khoi img {
+    width: 100%;
+    margin-bottom: 15px;
+    height: 100%;
+}
+
+.khoi {
+    opacity: 0;
+    width: 30%;
+    margin-bottom: 60px;
+    text-align: center;    
+}
+.khoi.wow{
+    opacity: 1;
+}
+
+.giaodien {
+    width: 1170px;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    padding-top: 50px;
+}
+
+.text {
+    width: 1170px;
+    margin: auto;
+    font-family: segoe ui light;
+    color: gray;
+    font-size: 20px;
+}
